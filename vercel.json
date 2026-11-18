@@ -1,0 +1,441 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/24-7-garage-door-repair.html",
+      "destination": "/24-7-garage-door-repair",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/emergency-garage-door-repair.html",
+      "destination": "/emergency-garage-door-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-cable-repair.html",
+      "destination": "/garage-door-cable-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-cable-replacement.html",
+      "destination": "/garage-door-cable-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-hinge-repair.html",
+      "destination": "/garage-door-hinge-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-installation.html",
+      "destination": "/garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-keypad-repair.html",
+      "destination": "/garage-door-keypad-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-lubrication.html",
+      "destination": "/garage-door-lubrication",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-maintenance.html",
+      "destination": "/garage-door-maintenance",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-off-track-repair.html",
+      "destination": "/garage-door-off-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-opener-installation.html",
+      "destination": "/garage-door-opener-installation",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-opener-repair.html",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-opener-replacement.html",
+      "destination": "/garage-door-opener-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-panel-repair.html",
+      "destination": "/garage-door-panel-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-panel-replacement.html",
+      "destination": "/garage-door-panel-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-remote-repair.html",
+      "destination": "/garage-door-remote-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair.html",
+      "destination": "/garage-door-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-apollo-beach.html",
+      "destination": "/garage-door-repair-apollo-beach",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-ballast-point.html",
+      "destination": "/garage-door-repair-ballast-point",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-bayshore-gardens.html",
+      "destination": "/garage-door-repair-bayshore-gardens",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-brandon.html",
+      "destination": "/garage-door-repair-brandon",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-carrollwood.html",
+      "destination": "/garage-door-repair-carrollwood",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-channel-district.html",
+      "destination": "/garage-door-repair-channel-district",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-channelside.html",
+      "destination": "/garage-door-repair-channelside",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-courier-city.html",
+      "destination": "/garage-door-repair-courier-city",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-davis-islands.html",
+      "destination": "/garage-door-repair-davis-islands",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-downtown-tampa.html",
+      "destination": "/garage-door-repair-downtown-tampa",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-east-lake-orient-park.html",
+      "destination": "/garage-door-repair-east-lake-orient-park",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-gibsonton.html",
+      "destination": "/garage-door-repair-gibsonton",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-harbour-island.html",
+      "destination": "/garage-door-repair-harbour-island",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-historic-ybor.html",
+      "destination": "/garage-door-repair-historic-ybor",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-hyde-park.html",
+      "destination": "/garage-door-repair-hyde-park",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-lithia.html",
+      "destination": "/garage-door-repair-lithia",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-lowry-park-central.html",
+      "destination": "/garage-door-repair-lowry-park-central",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-lutz.html",
+      "destination": "/garage-door-repair-lutz",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-mango.html",
+      "destination": "/garage-door-repair-mango",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-new-tampa.html",
+      "destination": "/garage-door-repair-new-tampa",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-north-hyde-park.html",
+      "destination": "/garage-door-repair-north-hyde-park",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-north-tampa.html",
+      "destination": "/garage-door-repair-north-tampa",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-northeast-tampa.html",
+      "destination": "/garage-door-repair-northeast-tampa",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-northwest-tampa.html",
+      "destination": "/garage-door-repair-northwest-tampa",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-odessa.html",
+      "destination": "/garage-door-repair-odessa",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-old-west-tampa.html",
+      "destination": "/garage-door-repair-old-west-tampa",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-palm-river-clair-mel.html",
+      "destination": "/garage-door-repair-palm-river-clair-mel",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-palma-ceia.html",
+      "destination": "/garage-door-repair-palma-ceia",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-plant-city.html",
+      "destination": "/garage-door-repair-plant-city",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-progress-village.html",
+      "destination": "/garage-door-repair-progress-village",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-riverview.html",
+      "destination": "/garage-door-repair-riverview",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-ruskin.html",
+      "destination": "/garage-door-repair-ruskin",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-seffner.html",
+      "destination": "/garage-door-repair-seffner",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-seminole-heights.html",
+      "destination": "/garage-door-repair-seminole-heights",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-south-tampa.html",
+      "destination": "/garage-door-repair-south-tampa",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-southeast-tampa.html",
+      "destination": "/garage-door-repair-southeast-tampa",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-sulphur-springs.html",
+      "destination": "/garage-door-repair-sulphur-springs",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-sun-city-center.html",
+      "destination": "/garage-door-repair-sun-city-center",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-tampa-palms.html",
+      "destination": "/garage-door-repair-tampa-palms",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-temple-terrace.html",
+      "destination": "/garage-door-repair-temple-terrace",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-thonotosassa.html",
+      "destination": "/garage-door-repair-thonotosassa",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-town-n-country.html",
+      "destination": "/garage-door-repair-town-n-country",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-university.html",
+      "destination": "/garage-door-repair-university",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-usf-area.html",
+      "destination": "/garage-door-repair-usf-area",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-v-m-ybor.html",
+      "destination": "/garage-door-repair-v-m-ybor",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-valrico.html",
+      "destination": "/garage-door-repair-valrico",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-westchase.html",
+      "destination": "/garage-door-repair-westchase",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-westshore.html",
+      "destination": "/garage-door-repair-westshore",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-wimauma.html",
+      "destination": "/garage-door-repair-wimauma",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair-ybor-city.html",
+      "destination": "/garage-door-repair-ybor-city",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-replacement.html",
+      "destination": "/garage-door-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-roller-repair.html",
+      "destination": "/garage-door-roller-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-roller-replacement.html",
+      "destination": "/garage-door-roller-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-safety-inspection.html",
+      "destination": "/garage-door-safety-inspection",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-sensor-repair.html",
+      "destination": "/garage-door-sensor-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-spring-repair.html",
+      "destination": "/garage-door-spring-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-spring-replacement.html",
+      "destination": "/garage-door-spring-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-track-repair.html",
+      "destination": "/garage-door-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-tune-up.html",
+      "destination": "/garage-door-tune-up",
+      "permanent": true
+    },
+    {
+      "source": "/locations.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/new-garage-door-installation.html",
+      "destination": "/new-garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/residential-garage-door-repair.html",
+      "destination": "/residential-garage-door-repair",
+      "permanent": true
+    },
+    {
+      "source": "/same-day-garage-door-repair.html",
+      "destination": "/same-day-garage-door-repair",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/smart-garage-door-opener-installation.html",
+      "destination": "/smart-garage-door-opener-installation",
+      "permanent": true
+    }
+  ]
+}
