@@ -1523,6 +1523,27 @@ small {
   letter-spacing: 0;
 }
 
+/* Reviews header rating: 4.8 shown as 4 full stars + a partial star (96% fill). */
+.rating .rating-stars {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+}
+
+.rating .rating-stars .stars-base {
+  color: #7d8b99;
+}
+
+.rating .rating-stars .stars-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 96%;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #ffac17;
+}
+
 .review-grid {
   position: relative;
   z-index: 2;
