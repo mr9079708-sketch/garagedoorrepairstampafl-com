@@ -282,7 +282,7 @@ small {
 }
 
 .button-small {
-  min-height: 42px;
+  min-height: 44px;
   padding-inline: 17px;
   font-size: 0.83rem;
 }
@@ -3312,4 +3312,69 @@ small {
 .socials a:hover {
   border-color: var(--accent);
   background: var(--accent);
+}
+
+/* ---- Round 3 mobile: sticky call bar + tap targets (max-width 768px) ---- */
+.mobile-call-bar {
+  display: none;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cost-table {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 56px;
+  }
+
+  .mobile-call-bar {
+    position: fixed;
+    z-index: 90;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    min-height: 56px;
+    align-items: stretch;
+    background: var(--accent);
+    box-shadow: 0 -4px 18px rgba(11, 30, 58, 0.25);
+  }
+
+  .mobile-call-bar a {
+    display: flex;
+    width: 100%;
+    min-height: 56px;
+    align-items: center;
+    justify-content: center;
+    color: var(--paper);
+    font-family: var(--heading);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  /* The legacy floating .sticky-call pill is superseded by the full-width
+     bar below 768px; hiding it avoids two overlapping call buttons. */
+  .sticky-call {
+    display: none;
+  }
+
+  /* Tap targets below 44px on mobile: footer social icons (31px) and
+     inline text links (~22px) are raised to 44px. */
+  .socials a {
+    width: 44px;
+    height: 44px;
+  }
+
+  .text-link {
+    min-height: 44px;
+  }
 }
