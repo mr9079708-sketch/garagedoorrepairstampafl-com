@@ -3296,6 +3296,15 @@ small {
   }
 }
 
+/* LCP (round 8): the homepage hero sits inside [data-sal], so the H1 was invisible
+   (opacity 0, translated 28px) until main.js added .sal-animate. Show hero content
+   immediately instead; below-the-fold reveals keep animating. */
+.hero [data-sal] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
 /* Lead-capture honeypot (kept off-screen, not display:none, so bots fill it). */
 .rl-hp {
   position: absolute;
