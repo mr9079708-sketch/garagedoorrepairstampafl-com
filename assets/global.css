@@ -29,9 +29,9 @@
   --cream: #f4f3ed;
   --paper: #ffffff;
   --ink: #172238;
-  --muted: #667184;
+  --muted: #5b6678;   /* Round 4: darkened from #667184 for WCAG AA on cream/blue-light/tint */
   --line: #dce1e5;
-  --green: #1a8a60;
+  --green: #14684a;   /* Round 4: darkened from #1a8a60 for WCAG AA on white/mint */
   --yellow: #ffc857;
   --heading: "Archivo Narrow", sans-serif;
   --body: "Manrope", sans-serif;
@@ -173,7 +173,7 @@ small {
   align-items: center;
   gap: 9px;
   margin-bottom: 16px;
-  color: var(--red);
+  color: var(--red-dark); /* Round 4: eyebrow text AA */
   font-size: 0.8125rem;
   font-weight: 800;
   letter-spacing: 0.15em;
@@ -236,7 +236,7 @@ small {
   gap: 12px;
   padding: 0 22px;
   border: 2px solid transparent;
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white button text AA */
   box-shadow: 5px 5px 0 rgba(11, 30, 58, 0.22);
   color: var(--paper);
   font-family: var(--heading);
@@ -759,7 +759,7 @@ small {
   border: 1px solid #cbd3d8;
   border-radius: 50%;
   background: var(--paper);
-  color: var(--red);
+  color: var(--red-dark);
   font-family: var(--heading);
   font-size: 1rem;
 }
@@ -940,7 +940,11 @@ small {
 }
 
 .service-row:first-child .service-row-index {
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white text AA */
+}
+
+.service-row:first-child .service-row-index > b {
+  color: rgba(255, 255, 255, 0.9); /* Round 4: 0.55 white on red-dark was 2.56:1 */
 }
 
 .service-row-index > b {
@@ -1057,7 +1061,7 @@ small {
   align-items: center;
   justify-content: space-between;
   gap: 28px;
-  color: #7d8792;
+  color: var(--muted); /* Round 4: #7d8792 failed AA on white */
   font-family: var(--heading);
   font-size: 1.17rem;
   font-weight: 700;
@@ -1066,7 +1070,7 @@ small {
 
 /* Offers */
 .offers {
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white text AA */
   color: var(--paper);
 }
 
@@ -1154,7 +1158,7 @@ small {
   border: 0;
   border-top: 1px dashed #cdd3d8;
   background: transparent;
-  color: var(--red);
+  color: var(--red-dark);
   font-size: 0.8125rem;
   font-weight: 800;
   text-align: left;
@@ -1313,7 +1317,7 @@ small {
   place-items: center;
   border: 7px solid var(--navy);
   border-radius: 50%;
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white numeral AA */
   color: var(--paper);
   font-family: var(--heading);
   font-size: 1.15rem;
@@ -1366,7 +1370,7 @@ small {
 }
 
 .featured .compare-icon {
-  background: var(--red);
+  background: var(--red-dark);
   color: var(--paper);
 }
 
@@ -1413,7 +1417,7 @@ small {
 .check-list li::before {
   position: absolute;
   left: 0;
-  color: var(--red);
+  color: var(--red-dark);
   content: "✓";
   font-weight: 900;
 }
@@ -1441,7 +1445,7 @@ small {
   display: inline-block;
   margin-bottom: 44px;
   padding: 5px 8px;
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white label text AA */
   color: var(--paper);
   font-family: var(--heading);
   font-size: 0.85rem;
@@ -1615,7 +1619,7 @@ small {
 
 .city-list li::before {
   margin-right: 8px;
-  color: var(--red);
+  color: var(--red-dark);
   content: "●";
   font-size: 0.8125rem;
 }
@@ -1654,7 +1658,7 @@ small {
   place-items: center;
   border: 5px solid var(--paper);
   border-radius: 50% 50% 50% 0;
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white pin text AA */
   box-shadow: 0 7px 20px rgba(11, 30, 58, 0.3);
   color: var(--paper);
   font-family: var(--heading);
@@ -1815,7 +1819,7 @@ small {
 }
 
 .faq-list details[open] summary::after {
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white glyph AA */
   content: "−";
 }
 
@@ -1956,7 +1960,7 @@ small {
 
 .newsletter {
   padding: 40px 0;
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white text AA */
   color: var(--paper);
 }
 
@@ -1975,7 +1979,7 @@ small {
 
 .newsletter p {
   margin: 6px 0 0;
-  color: #ffd5d9;
+  color: var(--paper); /* Round 4: #ffd5d9 on red-dark was 4.35:1 */
   font-size: 0.8125rem;
 }
 
@@ -2089,7 +2093,7 @@ small {
   gap: 9px;
   padding: 0 17px;
   border-radius: 30px;
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white pill text AA */
   box-shadow: 0 12px 30px rgba(11, 30, 58, 0.28);
   color: var(--paper);
   font-family: var(--heading);
@@ -2161,7 +2165,7 @@ small {
 }
 
 .breadcrumbs span {
-  color: var(--red);
+  color: var(--accent-soft); /* Round 4: red on navy failed AA; soft accent passes */
 }
 
 .hero-facts {
@@ -2182,7 +2186,7 @@ small {
 }
 
 .quick-strip {
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white text AA */
   color: var(--paper);
 }
 
@@ -2215,7 +2219,7 @@ small {
 
 .quick-strip span {
   margin-top: 5px;
-  color: #ffd2d8;
+  color: var(--paper); /* Round 4: #ffd2d8 on red-dark was 4.27:1 */
   font-size: 0.8125rem;
 }
 
@@ -2328,7 +2332,7 @@ small {
   height: 42px;
   margin-bottom: 45px;
   place-items: center;
-  background: var(--red);
+  background: var(--red-dark); /* Round 4: white glyph AA */
   color: var(--paper);
   font-family: var(--heading);
 }
@@ -2421,7 +2425,7 @@ small {
 
 .mini-list li::before {
   margin-right: 7px;
-  color: var(--red);
+  color: var(--red-dark);
   content: "✓";
 }
 
@@ -2568,8 +2572,8 @@ small {
 }
 
 .zip-wall a:hover {
-  border-color: var(--red);
-  color: var(--red);
+  border-color: var(--red-dark);
+  color: var(--red-dark);
 }
 
 .price-path {
@@ -2595,7 +2599,7 @@ small {
 }
 
 .price-path b {
-  color: var(--red);
+  color: var(--red-dark);
   font-family: var(--heading);
   font-size: 1.1rem;
 }
@@ -2631,7 +2635,7 @@ small {
 }
 
 .season-grid span {
-  color: var(--red);
+  color: var(--red-dark);
   font-family: var(--heading);
   font-size: 1rem;
   text-transform: uppercase;
@@ -3329,6 +3333,32 @@ small {
   -webkit-overflow-scrolling: touch;
 }
 
+/* ---- Round 4: default table styling (unstyled <table> elements) ---- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+th,
+td {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #d8d2c4;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--navy);
+  color: var(--paper);
+}
+
+tbody tr:nth-child(even) td {
+  background: #f7f8f8;
+}
+
 @media (max-width: 768px) {
   body {
     padding-bottom: 56px;
@@ -3343,7 +3373,7 @@ small {
     display: flex;
     min-height: 56px;
     align-items: stretch;
-    background: var(--accent);
+    background: var(--accent-dark); /* Round 4: white call-bar text AA */
     box-shadow: 0 -4px 18px rgba(11, 30, 58, 0.25);
   }
 
